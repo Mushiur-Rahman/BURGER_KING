@@ -1,0 +1,606 @@
+/*Common cord start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+	color: #3d2514;
+}
+/*common cord end*/
+
+/*header start*/
+header{
+
+	background-image: url(../images/2.jpg);
+
+
+}
+.wrapper{
+	margin: 0 auto;
+	padding-top: 90px;
+	width: 90%;
+	/*border: 1px solid;*/
+	overflow: hidden;
+	display: block;
+	background-image: url(../images/2.jpg);
+
+
+}
+.logo{
+	padding-left: 14px;
+	float: left;
+	width: 13%;
+	/*border: 1px solid blue;*/
+
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	padding-top: 28px;
+	float: right;
+	width: 46%;
+	/*border: 1px solid red;*/
+}
+.menu ul{
+
+}
+.menu ul li{
+	list-style: none;
+    float: left;
+    margin: 7px 27.2px
+}
+
+.menu ul li a{
+	text-decoration: none;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    color: #3d2514;
+    text-transform: uppercase;
+    transition: .3s;
+    border-radius: 5px;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	color: #fdc14b;
+	background-color: #3d2514;
+	padding: 10px 30px;
+}
+.delivery{
+	float: right;
+	width: 21%;
+	/*border: 1px solid;*/
+	margin-right: -730px;
+}
+.delivery img{
+	float: left;
+    padding-right: 22px;
+}
+.delivery h2{
+	   font-size: 18.5px;
+}
+/*header end*/
+/*bannar start*/
+.banner{
+	padding-bottom: 20px;
+	overflow: hidden;
+	background-image: url(../images/2.jpg);
+}
+.paragrap{
+	float: left;
+    margin: -112px 0;
+}
+.b_p{
+	margin-top: 180px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 24px;
+	font-weight: 400;
+	border: 2px dashed; #3d2514;
+	padding: 5px 15px;
+	float: left;
+}
+.b_text{
+	margin: 223px -411px;
+    margin-left: -411;
+    margin-top: 219px;
+    margin-bottom: 0;
+	font-family: 'Alfa Slab One', cursive;
+    font-size: 121px;
+    font-weight: 400;
+    float: left;
+    text-transform: uppercase;
+}
+.b_img{
+	width: 660px;
+	float: right;
+}
+.b_img img{
+	    width: 100%;
+}
+
+.o_img{
+	width: 175px;
+	float: right;
+}
+.o_img img{
+	margin-top: 293px;
+    margin-left: 218px;
+    width: 100%;
+}
+/*banner end*/
+/*popular start*/
+.popular{}
+.wrapper2{
+	margin: 80px auto;
+	width: 65%;
+	/*border: 1px solid;*/
+	overflow: hidden;
+
+}
+/*single start*/
+.one{
+	background-image: url(../images/3.jpg);
+	width: 596px;
+	height: 419px;
+	float: left;
+}
+.popular_t{
+	    padding: 30px;
+}
+.one h3{
+	margin: 0;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 25px;
+	font-weight: 400;
+	color: #ffffff;
+}
+.one h2{
+	margin: 0;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 42px;
+	font-weight: 400;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+/*single end*/
+/*single start*/
+.two{
+	background-image: url(../images/3.png);
+	width: 596px;
+	height: 192px;
+	float: right;
+}
+.popular_t{
+	    padding: 30px;
+}
+.two h3{
+	margin: 0;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 25px;
+	font-weight: 400;
+	color: #ffffff;
+}
+.two h2{
+	margin: 0;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 42px;
+	font-weight: 400;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+/*single end*/
+/*single start*/
+.third{
+	margin-top: 35px;
+	background-image: url(../images/4.png);
+	width: 596px;
+	height: 192px;
+	float: right;
+}
+.popular_t{
+	    padding: 30px;
+}
+.third h3{
+	margin: 0;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 25px;
+	font-weight: 400;
+	color: #ffffff;
+}
+.third h2{
+	margin: 0;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 42px;
+	font-weight: 400;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+/*single end*/
+
+/*popular end*/
+/*order p start*/
+.order{}
+.wrapper3{
+	margin: 30px auto;
+	width: 95%;
+	/*border: 1px solid;*/
+
+}
+.o_text{
+	overflow: hidden;
+	margin: 0 auto;
+}
+h4{
+	margin: 25px 792.5px;
+	padding: 16px 0;
+    overflow: hidden;
+    display: block;
+}
+h4 a{
+	margin: 0;
+    padding: 17px 25px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    font-weight: 400;
+    color: #3d2514;
+    width: 175px;
+    text-decoration: none;
+    background-color: #ffc045;
+    transition: .3s;
+}
+h4 a:hover{
+	background-color: black;
+	color: #ffc658;
+}
+h1{
+    margin: 0 658px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+p{
+	text-align: center;
+	line-height: 28px;
+}
+/*order p end*/
+/*single2 start*/
+.order_sell{
+	overflow: hidden;
+	/*border: 1px solid;*/
+	margin: 80px 0;
+}
+.wrapper4{
+	overflow: hidden;
+	/*border: 1px solid;*/
+	margin: 0 12px;
+}
+/*order start*/
+.order1{
+	margin-top: 137px;
+    padding-right: 87px;
+    padding-left: 87px;
+    /* border: 1px solid; */
+    width: 450px;
+    float: left;
+    overflow: hidden;
+	padding-right: 87px;
+	padding-left: 87px;
+	/*border: 1px solid;*/
+	width: 450px;
+	float: left;
+	overflow: hidden;
+}
+.four_img {
+	width: 450px;
+}
+.four_img img{
+	width: 100%;
+    margin: 0 28px;
+    display: block;
+}
+
+.o_title{
+	font-family: 'Bebas Neue', cursive;
+    font-size: 38px;
+    font-weight: 400;
+    text-align: center;
+}
+.b-or{
+    margin: 0 auto;
+    width: 190px;
+    height: 60px;
+    padding: 0;
+    background-color: #bf2222;
+    border-radius: 4px;
+}
+.b-or ul{
+	overflow: hidden;
+    padding: 0;
+    text-align: center;
+}
+.b-or li{
+	list-style: none;
+}
+.b-or ul li a{
+    font-family: 'Bebas Neue';
+    font-size: 27px;
+    text-decoration: none;
+    color: white;
+    overflow: hidden;
+    padding: 13px 0px;
+    /* margin: 0 auto; */
+    display: block;
+    transition: .3s;
+}
+.b-or ul li a:hover{
+	color: #bf2222;
+	background-color: black;
+	padding: 13px 7px;
+}
+/*order end*/
+/*order start*/
+.order2{
+	margin-top: 68px;
+	padding-right: 87px;
+	padding-left: 87px;
+	/*border: 1px solid;*/
+	width: 450px;
+	float: left;
+	overflow: hidden;
+}
+.four_img {
+	width: 450px;
+}
+.four_img img{
+	width: 100%;
+    margin: 0 28px;
+    display: block;
+}
+
+.o_title{
+	font-family: 'Bebas Neue', cursive;
+    font-size: 38px;
+    font-weight: 400;
+    text-align: center;
+}
+/*order end*/
+
+/*discover start*/
+.discover{
+	/*border: 1px solid;*/
+}
+.container{
+	margin: 110px auto;
+	background-color: white;
+	width: 71%;
+	overflow: hidden;
+	/*border: 1px solid;*/
+	-webkit-box-shadow: 6px 20px 38px -12px rgba(97,93,97,0.82);
+-moz-box-shadow: 6px 20px 38px -12px rgba(97,93,97,0.82);
+box-shadow: 6px 20px 38px -12px rgba(97,93,97,0.82);
+}
+.discover_text{
+	margin-top: 70px;
+    margin-left: 50px;
+	float: left;
+    width: 570px;
+    /* border: 1px solid; */
+
+}
+.discover-t{
+	margin: 0;
+
+}
+.discover-title{
+	margin: 0;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    float: left;
+    display: block;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 42px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+.discover-p{
+    float: left;
+    padding: 0;
+    margin: 0;
+    margin-right: -13px;
+    text-align: left;
+}
+.discover_text img{
+	margin-top: 170px;
+    float: left;
+}
+.discover_img{
+	float: right;
+    margin: 30px;
+	float: right;
+}
+.discover_img img{
+
+	width: 100%;
+}
+/*discover end*/
+/*information start*/
+.information{
+	margin: 170 auto;
+}
+.information_img{
+	float: left;
+}
+.information_img img{}
+.infor_img{
+	float: right;
+    margin-top: 180px;
+}
+.infor_img img{}
+.informa_img{
+	float: left;
+    overflow: hidden;
+    margin-top: 193px;
+}
+.informa_img img{
+}
+.in-text{
+	font-family: 'Bebas Neue';
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0px 893px;
+}
+.in-title{
+	margin: 0 688px;
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    font-weight: 400;
+}
+.in{
+	margin: 110px 645px;
+    width: 790px;
+    height: 270px;
+}
+.in form{
+	margin: 0px -8px;
+    overflow: hidden;
+    position: relative;
+}
+.in input{
+    margin: 22px 34px;
+    padding: 17px 96px;
+    border-radius: 4px;
+    font-family: 'Bebas Neue';
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+    float: left;
+    /* border: none; */
+    background-color: transparent;
+    padding-left: 7px;
+    /* border-bottom: 2px solid lightgray; */
+    text-align: left;
+}
+.in input:focus{
+	outline: 0;
+	padding-left: 5px;
+}
+.in button{
+    margin-left: 34px;
+    margin-top: 22px;
+    width: 247px;
+    height: 58px;
+    background-color: #bf2222;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Bebas Neue';
+    font-size: 41px;
+    font-weight: 400;
+    color: white;
+    transition: .3s;
+}
+.in button:hover{
+	background-color: black;
+	color: #bf2222;
+}
+/*information end*/
+/*footer start*/
+.footer{
+	margin: 40px 35px;
+	background-image: url(../images/12.jpg);
+}
+.wrapper-a{
+	color: white;
+	
+}
+.footer-1{
+	padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 600px;
+}
+.footer-logo{
+    width: 410px;
+}
+.footer-logo img{
+	width: 100%;
+}
+.footer-text{
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 50px;
+    margin-bottom: 160px;
+    text-align: left;
+}
+.footer-fo{
+	margin: 0;
+	font-family: 'Bebas Neue';
+    font-size: 17px;
+    font-weight: 400;
+}
+.footer-2{
+    margin-top: -280px;
+    margin-right: 333px;
+    float: right;
+    /*overflow: hidden;*/
+    width: 300px;
+}
+.location{
+	margin: 10px 5px;
+}
+.location-img{
+	width: 33px;
+}
+.location-img img{
+	width: 100%;
+}
+.email{
+	margin: 10px 5px;
+}
+.email-img{
+	width: 33px;
+}
+.email-img img{
+	width: 100%;
+}
+.location-p{
+    margin-left: 48px;
+    margin-top: -34px;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    width: 265px;
+}
+.email-p{
+	margin-top: -30px;
+    margin-left: 67px;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    font-weight: 400;
+}
+.social{
+	    margin-top: -80px;
+    margin-right: 20px;
+    /* border: 1px solid red; */
+    overflow: hidden;
+    float: right;
+}
+.social ul{
+	float: left;
+	list-style: none;
+}
+.social ul li{
+    margin: 0 20px;
+    float: left;
+}
+/*footer end*/
